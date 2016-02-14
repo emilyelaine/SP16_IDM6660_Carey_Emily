@@ -1,0 +1,135 @@
+
+/* Media Query for 480px */
+
+@media screen and (max-width: 480px) {
+
+	body {
+		background-color: orange;
+		width: 100%;
+		padding-bottom: 1%;
+	}
+
+	/* Header */
+	header {
+		background-color: orange;
+		margin: 0;
+		padding: 0;
+		height: auto;
+	}
+
+	header h1 {
+		font-size: 2.5em;
+		margin: 2% 1%;
+	}
+
+	header h1 a:hover {
+		color: #fff;
+	}
+
+	header nav li {
+		width: 47%;
+		padding: 2% 1.5%;
+		float: left;
+		background-color: white;
+		margin-bottom: 4%;
+	}
+
+	header nav {
+		margin: 5% 0;
+	}
+
+	/* Main Section */
+
+	section {
+		width: 100%;
+		float: none;
+		padding: 3% 0;
+	}
+
+
+	section h1 {
+		font-size: 2.5em;
+		margin: 25% 0 0 4%;
+	}
+
+	section img {
+		width: 100%;
+		margin: 0;
+	}
+
+	section h2 span:first-child{
+		font-size: .7em;
+		width: 4.65em;
+		height: 4.65em;
+		top: 150px;
+		left: 10px;
+		padding: 35px 25px;
+		-ms-transform: rotate(-20deg); /* IE 9 */
+    	-webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-20deg);
+	}
+
+	section h2, section p {
+		padding: 0 4%;
+	}
+	section h2 {
+		font-size: 2em;
+	}
+
+	section h2 span {
+		font-size: .75em;
+	}
+
+	aside {
+		width: 100%;
+		float: none;
+		padding: 4%;
+	}
+
+	aside a:hover {
+		color: #FFF;
+	}
+
+	aside li {
+		width: 50%;
+		height: auto;
+		float: left;
+		padding: 2% 0;
+		font-size: 1.5em;
+	}
+
+	aside li:first-child, aside li:nth-child(2) {
+		float: none;
+		width: 100%;
+		line-height: .5em;
+	}
+
+	aside li:nth-child(2) {
+		font-size: .5em;
+	}
+
+	aside img	{
+		width: 100%;
+		padding: 3% 7%;
+	}
+
+	/* Footer */
+
+	footer {
+		padding: 4% 4% 0 4%;
+	}
+
+	footer nav, footer ol {
+		width: 100%;
+		float: none;
+		padding: 3% 5%;
+	}
+
+	footer li {
+		line-height: 1.2em;
+	}
+	footer a:hover {
+		color: #FFF;
+
+	}
+}
