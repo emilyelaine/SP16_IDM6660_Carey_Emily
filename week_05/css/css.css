@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+
+body {
+	max-width: 480px;
+	margin: auto;
+	font-size: 14px;
+}
+
+header {
+	background-color: #B82820;
+	position: relative;
+}
+
+header div.header {
+	width: 100%;
+	font-family: 'Cookie', cursive;
+	text-align: center;
+	line-height: .9em;
+	font-size: 1.1em;
+}
+
+header img {
+	width: 80%;
+	margin: 0 10%;
+}
+
+div#cart {
+	position: absolute;
+	top: 10;
+	left: 10;
+	background-color: #F4E5C9;
+	padding: 0 10px;
+	margin-top: -10;
+	border-radius: 0 0 5px 5px;
+	font-size: 85%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigation*/
+ 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -21px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* common and top level styles */
+#nav, #nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background-color: #B82820;
+    border-bottom: 5px solid #B82820;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+#nav ul.subs {
+    background-color: #F4E5C9;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    color: #333333;
+    display: none;
+    left: 0;
+    width: 96%;
+    position: relative;
+    top: 0;
+}
+
+#nav > li {
+    text-align: left;
+    -moz-transition: all 300ms ease-in-out 0s;
+    -ms-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+    float: none;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    white-space: normal;
+}
+
+#nav > li > a {
+    color: #F4E5C9;
+    display: block;
+    font-size: 1.3em;
+    line-height: 49px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+#nav > li:hover > a, #nav > a:hover {
+    background-color: #F4E5C9;
+    color: black;
+}
+
+#nav li.active > a {
+    background-color: #F4E5C9;
+    color: #FFFFFF;
+}
+    #nav li:hover ul.subs {
+        display: none;
+        color: black;
+    }
+
+    #nav li ul li a{
+    	padding: 1% 0 1% 10%;
+    	color: #F4E5C9;
+    }
+    #nav li ul li a:hover {
+      	background-color: #F4E5C9;
+    	color: black;
+}
+    }
+
+    #nav ul.subs > li {
+        display: block;
+        width: auto;
+    }
+}
+
+
+/* Main Section */
+section h2 {
+	font-family: 'Cookie', cursive;
+	font-size: 2.3em;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: -10px;
+}
+
+section, footer {
+	background-color: #00CCB7;
+	margin-top: -30px;
+}
+
+section img, section h3, section h4, section p {
+	width: 80%;
+	margin: 0 8%;
+	border: 10px solid #F4E5C9;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+section h3, section h4, section p {
+	background-color: #F4E5C9;
+	text-align: center;
+}
+
+section img {
+	margin-top: 20px;
+}
+
+section h3 {
+	font-size: 1.5em;
+}
+section h4 {
+	font-size: 1.3em;
+	line-height: .7em;
+}
+
+section p {
+	width: 80%;
+	background-color: #B82820;
+	padding: 8px 0;
+	font-size: 1.1em;
+}
+
+section p a {
+	color: #F4E5C9;
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	margin-top: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+
+/*  Main Nav */
