@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+
+@media screen and (min-width: 0px) {
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+	max-width: 1080px;
+	margin: auto;
+	font-size: 14px;
+  background-color: #00CCB7;
+}
+
+header {
+	background-color: #00CCB7;
+	position: relative;
+}
+
+header div.header {
+	width: 100%;
+	font-family: 'Cookie', cursive;
+	text-align: center;
+	line-height: 2em;
+	font-size: 1.1em;
+  padding: 25px 0;
+}
+
+header img {
+	width: 80%;
+	margin: 0 10%;
+}
+
+div#cart {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #F4E5C9;
+	padding: 0 10px;
+	margin-top: -10px;
+	border-radius: 0 0 5px 5px;
+	font-size: 85%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigation*/
+ 
+$nav_text: #222;
+$top_level: #F4E5C9;
+$second_level: #F4E5C9;
+$third_level: #F4E5C9;
+$fourth_level: #F4E5C9;
+
+.flexnav {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-transform-style: preserve-3d; // stop webkit flicker
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 0;
+  
+  &.opacity {
+    opacity: 0;
+  }
+  
+  &.flexnav-show {
+    max-height: 2000px;
+    opacity: 1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  &.one-page {
+    position: fixed;
+    top: 50px;
+    right: 5%;
+    max-width: 200px;
+  }
+  
+  li {
+    font-size: 1em;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  li a {
+    position: relative;
+    display: block;
+    padding: 0.96em 0.96em 0.96em 3em;
+    z-index: 2;
+    overflow: hidden;
+    color: $nav_text;
+    background: #F4E5C9;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    text-decoration: none;
+  }
+  li ul {
+    width: 100%;   
+    
+    li {
+      font-size: 100%;
+      position: relative;
+      overflow: hidden;   
+    }
+  }
+  li ul.flexnav-show {
+    
+    li {
+      overflow: visible;
+    }
+  } 
+  
+  li ul li a {
+    display: block;
+    background: $second_level;
+    padding-left: 4em;
+  }
+    .touch-button {
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+    }
+        
+    .navicon {
+      font-size: 16px;
+      position: relative;
+      top: 1em;
+      color: #666;
+    }
+  }
+}
+.menu-button {
+  position: relative;
+  display: block;
+  padding: 1em 1em 1em 3em;
+  background: $top_level;
+  color: $nav_text;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  font-family: Arial, Helvetica, sans-serif;
+  
+  &.one-page {
+    position: fixed;
+    top: 0;
+    right: 5%;
+    padding-right: 45px;
+  }
+  
+  .touch-button {
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+        
+    .navicon {
+      font-size: 16px;
+      position: relative;
+      top: 1em;
+      color: #666;
+    }
+  }
+}
+
+/* Main Section */
+section h2 {
+	font-family: 'Cookie', cursive;
+	font-size: 2.3em;
+	text-align: center;
+	padding: 50px 0 15px 0;
+	margin-bottom: -10px;
+}
+
+section, footer {
+	background-color: #00CCB7;
+	margin-top: -30px;
+}
+
+section img, section h3, section h4, section p {
+	width: 80%;
+	margin: 0 8%;
+	border: 10px solid #F4E5C9;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+section h3, section h4, section p {
+	background-color: #F4E5C9;
+	text-align: center;
+}
+
+section img {
+	margin-top: 20px;
+}
+
+section h3 {
+	font-size: 1.5em;
+}
+section h4 {
+	font-size: 1.3em;
+	line-height: .7em;
+}
+
+section p {
+	width: 80%;
+	background-color: #B82820;
+	padding: 8px 0;
+	font-size: 1.1em;
+}
+
+section p a {
+	color: #F4E5C9;
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	margin-top: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p:first-child {
+  font-style: italic;
+}
+
+footer p {
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+  font-size: .9em;
+}
+
+}
+
+

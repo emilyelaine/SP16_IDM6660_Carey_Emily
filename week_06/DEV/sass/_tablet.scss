@@ -1,0 +1,42 @@
+@media screen and (min-width: 480px) {
+
+/* Header */
+  header img {
+    width: 50%;
+    margin-top: -20px;
+  }
+
+/* Section */
+  section h2 {
+    padding-top: 60px;
+    font-size: 3em;
+  }
+
+  section h3 {
+    font-size: 1.4em;
+  }
+  section h4 {
+    font-size: 1.2em;
+    line-height: .2em;
+    font-weight: 200;
+  }
+
+  section img, section h3, section h4, section p {
+    border: 10px solid #F4E5C9;
+  }
+  section div {
+    display: inline-block;
+    float: left;
+    width: 48%;
+    padding: 1%;
+  }
+
+/* Footer */
+  footer {
+    clear: both;
+  }
+
+  footer p {
+    width: 90%;
+  }
+}

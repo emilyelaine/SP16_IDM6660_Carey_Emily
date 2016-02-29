@@ -1,8 +1,12 @@
+<!doctype html>
 <html>
 <head>
-	<title>Assignment 5 - Savor More</title>
+	<meta charset="UTF-8">
+	<title>Assignment 6 - Savor More</title>
 	<link rel='stylesheet' type='text/css' href='css/css.css'> 
 	<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.flexnav.min.js"></script>
 </head>
 <body>
 	<header>
@@ -17,8 +21,8 @@
 		</div>
 
 		<div class='navigation'>
-			<a class='menu-link' href='#'></a> 
-			<ul id='nav'>
+			<div class="menu-button">Menu</div>
+			<ul class="flexnav">
 				<li><a href='#'>Home</a></li>
 				<li><a href='#'>What's New</a>
 					<ul class='sub'>
@@ -88,10 +92,8 @@
 		<p>&copy; 2014 by Savor More LLC.</p>
 	</footer>
 
-<script>
-	$(function(){
-		$('#menu').slicknav();
-	});
-</script>
+	<script>
+	$(".flexnav").flexNav();
+	</script>
 </body>
 </html>

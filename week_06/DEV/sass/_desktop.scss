@@ -1,0 +1,111 @@
+/* Flexnav Base Styles */
+
+$nav_text: #222;
+$top_level: #a6a6a2;
+$second_level: #b2b2af;
+$third_level: #bfbfbc;
+$fourth_level: #cbcbc9;
+
+@media all and (min-width: 620px) {
+
+/* Header */
+    header img {
+    width: 45%;
+    margin-top: -20px;
+  }
+
+/* Navigation */
+  body.one-page {
+    padding-top: 70px;
+  }
+  .flexnav {
+    overflow: visible;
+    &.opacity {
+      opacity: 1;
+    }
+    &.one-page {
+      top: 0;
+      right: auto;
+      max-width: 1080px;
+    }
+    li {
+      position: relative;
+      list-style: none;
+      float: left;
+      display: block; 
+      background-color: #a6a6a2;
+      overflow: visible;
+      width: 20%;
+      font-size: 1.1em;
+    }
+    li a {
+      border-left: 1px solid #acaca1;
+      border-bottom: none;
+      font-size: .9em;
+      padding-left: 1.5em;
+    }
+    li > ul {
+      position: absolute; 
+      top: auto;
+      left: 0;
+      
+      li {
+        width: 100%;
+      }
+    }
+    li ul li > ul {
+      margin-left: 100%;
+      top: 0;
+    }
+    li ul li:hover > ul,
+    li ul li > ul.flexnav-show {
+    }   
+    li ul li a {
+      border-bottom: none;
+      padding-left: 1.5em;
+      border: 1px solid #acaca1;
+    }
+    li ul.open, li ul li:hover {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+      z-index: 1;
+      li {
+        overflow: visible;
+        max-height: 100px;
+      } 
+      ul.open {
+        margin-left: 100%;
+        top: 0;
+      }
+    }
+  }
+  .flexnav .touch-button .navicon {
+    top: 0.8em;
+  }
+  .menu-button {
+    display: none;
+  }
+
+/* Section */
+  section h2 {
+    padding-top: 100px;
+  }
+
+  section div {
+    width: 33%;
+    padding: 0;
+  }
+
+/* Footer */
+  
+  footer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  footer p {
+    font-size: 1.1em;
+    width: 98%
+  }
+}
