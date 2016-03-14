@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) {
+
+
+	body {
+
+		div.about {
+			p {
+				font-size: 1em;
+				margin: 0;
+			}
+		}
+
+		h3 {
+			padding: 1% 6%;
+			font-size: 1.7em;
+			width: 45%;
+		}
+
+		div#credits {
+			clear: both;
+			padding: 2% 0;
+			width: 94%;
+			margin-left: 6%;
+
+			h3 {
+				width: 75%;
+			}
+		}
+
+		div#credits div.creditSection {
+			width: 50%;
+			float: left;
+
+		}
+
+		p.samples {
+			font-size: 2em;
+		}
+
+		div#contact p {
+			font-size: 1.5em;
+		}
+
+	}
+
+
+}
