@@ -11,8 +11,9 @@
     <link href='https://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
     <script src="https://use.typekit.net/cvb3vyx.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script src="../scripts/jquery-1.11.3.min.js"></script>
-    <script src="../scripts/modernizr.js"></script>
+    <script type="text/javascript" src="../scripts/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../scripts/modernizr.js"></script>
+    <script type="text/javascript" src="../scripts/scripts.js"></script>
     <script type="text/javascript" src="../scripts/jquery.flexnav.min.js"></script>
 
 </head>
@@ -36,14 +37,48 @@
     <section>
         <h2 class="samples">A collection of my most recent work.</h2>  
 
-        <div class="samples">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/fw1Dmhvpi54?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/8FjkQwCR9SQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/Eu9JpfNkYig?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/st9cSBSjxgA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        <iframe src="https://player.vimeo.com/video/121081750?byline=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/DQ6ef0g-A5M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>  
-    </div>
+            <ul id="filter">
+                <li class="current"><a href="#">All</a></li>
+                <li><a href="#">Documentaries</a></li>
+                <li><a href="#">Trailers</a></li>
+                <li><a href="#">Music Videos</a></li>
+                <li><a href="#">Voice Over</a></li>
+            </ul>
+
+        <ul class="samples">
+            <li class="all trailers documentaries">
+                <a href="#"><h3 class="samples">Saddle Up</h3>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/fw1Dmhvpi54?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a>
+            </li>
+            <li class="all music-videos">
+                <a href="#"><h3 class="samples">Jamboree - Okee Dokee Brothers</h3>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/8FjkQwCR9SQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a>
+            </li>
+            <li class="all documentaries">
+                <a href="#"><h3 class="samples">Kenny Salwey - Can You Canoe</h3>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/Eu9JpfNkYig?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a>
+            </li>
+            <li class="all documentaries">
+                <a href="#"><h3 class="samples">David Holt - Through the Woods</h3>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/st9cSBSjxgA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a>
+            </li>
+            <li class="all music-videos">
+                <a href="#"><h3 class="samples">Seventh Street - Brian Laidlaw</h3>
+                    <iframe src="https://player.vimeo.com/video/121081750?title=0&byline=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></a>
+            </li>
+            <li class="all music-videos">
+                <a href="#"><h3 class="samples">Thin Veil - Paul Spring</h3>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/DQ6ef0g-A5M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a>
+            </li>
+            <li class="all voice-over">
+                <a href="#"><h3 class="samples">Order Cloud (four51)</h3>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/wYqb-S2OcOQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a>
+            </li>
+            <li class="all voice-over">
+                <a href="#"><h3 class="samples">3M</h3>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/cT4otf_KUyA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></a>
+            </li>
+        </ul>
     </section>
     <footer>
         <p>JedEditedIt Productions &copy; 2016</p>

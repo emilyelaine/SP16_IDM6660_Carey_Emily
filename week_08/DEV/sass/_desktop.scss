@@ -6,15 +6,44 @@
 		div.about {
 			p {
 				font-size: 1em;
-				margin: 0;
 			}
 		}
 
+		div#recentWork iframe {
+			width: 45%;
+			margin: 2%;
+		}
+
 		h3 {
-			padding: 1% 6%;
+			padding: 1% 4%;
 			font-size: 1.7em;
 			width: 45%;
 		}
+
+	/* About Page */
+
+		div#aboutPage {
+			width: 60%;
+			float: right;
+			padding-top: 1%;
+		p {
+			font-size: 1em;
+		}
+	}
+		h2.about {
+			font-size: 4em;
+			padding: 0 0 2% 0;
+			margin: 0;
+			line-height: 1em;
+		}
+
+		div#aboutImage {
+			width: 30%;
+			float: left;
+			padding: 5% 0 0 0	;
+		}
+
+	/* Credits Page */
 
 		div#credits {
 			clear: both;
@@ -33,15 +62,30 @@
 
 		}
 
-		p.samples {
-			font-size: 2em;
-		}
-
 		div#contact p {
 			font-size: 1.5em;
 		}
 
-	}
+	/* Work Page */
 
+		p.samples {
+			font-size: 2em;
+		}
 
+		ul#filter li {
+			font-size: 1.5em;
+		}
+
+		ul.samples li {
+			width: 45%;
+			float: left;
+			margin: 2% 2.5%;
+
+			h3 {
+
+			}
+		}
+		
+
+}
 }
