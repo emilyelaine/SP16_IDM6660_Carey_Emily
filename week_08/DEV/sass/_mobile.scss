@@ -142,7 +142,7 @@ font-family: 'caviar_dreamsregular', 'Helvetica', 'Arial', sans-serif;
   
 }
 
- .no-cssanimations li a:hover, li a:active {
+ .no-csstransitions li a:hover, li a:active {
   	background-color: $yellow;
  }
 
@@ -214,6 +214,10 @@ font-family: 'caviar_dreamsregular', 'Helvetica', 'Arial', sans-serif;
 	/* Credits Page */
 		div#credits {
 			padding-bottom: 5%;
+
+			img {
+				margin: 5% 0;
+			}
 		}
 
 		div#credits ul, div#credits p {
