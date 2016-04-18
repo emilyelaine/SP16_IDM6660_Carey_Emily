@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'latin_modern_mono_light10Rg';
+    src: url('../fonts/lmmonolt10-regular-webfont.eot');
+    src: url('../fonts/lmmonolt10-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmmonolt10-regular-webfont.woff') format('woff'),
+         url('../fonts/lmmonolt10-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lmmonolt10-regular-webfont.svg#latin_modern_mono_light10Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latin_modern_mono10_regular';
+    src: url('../fonts/lmmono10-regular-webfont.eot');
+    src: url('../fonts/lmmono10-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmmono10-regular-webfont.woff') format('woff'),
+         url('../fonts/lmmono10-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lmmono10-regular-webfont.svg#latin_modern_mono10_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latin_modern_mono10_italic';
+    src: url('../fonts/lmmono10-italic-webfont.eot');
+    src: url('../fonts/lmmono10-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmmono10-italic-webfont.woff') format('woff'),
+         url('../fonts/lmmono10-italic-webfont.ttf') format('truetype'),
+         url('../fonts/lmmono10-italic-webfont.svg#latin_modern_mono10_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$white: #fff;
+$yellow: #face3e;
+$blue: #789fba;
+$lightGrey: #989da4;
+$darkBlue: #2a3c63;
+$grey: #55575a;
+
+* {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+html {
+ background-color: #white;
+}
+
+html {
+	font-family: "latin_modern_mono_light10Rg", 'Georgia', serif;
+	font-size: 14px;
+}
+
+/*header */
+header {
+	color: white;
+	border-bottom: 2px double $grey;
+
+	h1 {
+		font-family: 'latin_modern_mono10_regular', 'Georgia', serif;
+		background-color: $grey;
+		color: $white;
+		width: 100%;
+		text-align: left;
+		font-size: 1.8em;
+		font-weight: 300;
+		padding: 13px 8px;
+
+	}
+
+	img {
+		width: auto;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+
+	.no-fontface h1, .no-fontface .menu-button, .no-fontface .flexnav li {
+		font-family: 'Helvetica', 'Arial', sans-serif;
+	}
+
+	ul {
+		display: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		padding: 2% 0;
+		background-color: $white;
+	}
+
+	li a {
+		text-decoration: none;
+		color: $grey;
+		font-size: 1.2em;
+	}
+
+	li a:hover {
+		color: $yellow;
+	}
+
+	li:hover {
+		background-color: $lightGrey;
+		color: $yellow;
+	}
+
+}
+
+/* Body */
+
+body {
+		color: $white;
+
+	h2 {
+		font-size: 1.5em;
+		padding: 0 0 2em 0;
+	}
+
+	p {
+		font-size: 1.2em;
+	}
+
+	p a {
+		color: $yellow;
+		text-decoration: underline;
+		font-family: 'latin_modern_mono10_italic', cursive;
+	}
+
+}
+
+video {
+	position: relative;
+	margin: 0;
+}
+
+
+section h2 {
+	font-size: 2em;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	z-index: 10;
+	top: 150px;
+	color: $white;
+	background-color: rgba(120, 159, 186, 0.4);
+}
+
+.section {
+	background-color: rgba(120, 159, 186, 0.8);
+	width: 100%;
+	margin: 0;
+	padding: 100px 20px;
+}
+
+footer {
+	background-color: $grey;
+	padding: 50px 0;
+	text-align: center;
+	margin: 0;
+
+	img {
+		width: 64px;
+		padding: 30px 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
