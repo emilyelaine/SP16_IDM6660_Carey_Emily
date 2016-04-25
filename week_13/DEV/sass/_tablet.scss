@@ -1,0 +1,88 @@
+@media screen and (min-width: 640px) {
+
+section h2 {
+	padding: 10% 13%;
+}
+
+div.footerSection {
+	width: 50%;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+p.footerSection {
+	float: left;
+	width: 50%;
+	padding: 3.5em 0 0 0;
+}
+
+footer {
+	background-color: $grey;
+	clear: both;
+	height: 150px;
+	margin: 0;
+	padding: 1em 0 0 0;
+}
+
+
+/* Home Page Specific Styles */
+body {
+
+h2.homePage {
+	font-size: 1.5em;
+}
+
+p.section {
+	width: 80%;
+	padding: 0;
+	margin: 5% 10%;
+}
+
+}
+
+/* About Page Specific Styles */
+
+h2.contact {
+	margin: 0;
+	padding: 20px 0;
+}
+
+/* Work Page Specific Styles */
+
+ul.samples .workSamples h3 {
+	background-color: rgba(152, 157, 164, 0.8);
+	width: 100%;
+	height: 100%;
+	font-size: 1.5em;
+}
+
+body {
+	div.workSamples {
+		position: relative;
+	}
+
+	iframe {
+  		height: auto;
+ 		vertical-align: middle;
+  		width: 100%;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	h2.form {
+	background-color: $darkBlue;
+	color: $white;
+	padding: 0;
+}
+
+
+}
+
+}
+

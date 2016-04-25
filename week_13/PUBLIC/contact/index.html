@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JedEditedIt Productions | Contact</title>
+
+    <meta name="viewport" content="width=device-width">
+    
+    <link type="text/css" rel="stylesheet" href="../css/css.css">
+    <script src="../scripts/jquery-1.11.3.min.js"></script>
+    <script src="../scripts/modernizr.js"></script>
+    <script src="../scripts/main.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(argumenets)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75768606-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+<body>
+    <header class="header">
+        <h1>JedEditedIt Productions</h1>
+            <a href="#" id="menuBtn"><img alt="hidden nav icon" src="../img/hamburger.png"></a>
+            <ul id="mainNav">
+                <li><a href="../">Home</a></li>
+                <li><a href="../about/">About</a></li>
+                <li><a href="../work/">Work</a></li>
+                <li><a href="../credits/">Credits</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    </header>
+
+    <section class="mainBody">
+            <h2 class="contact">Want to work with me?</h2>
+            <p class="contact">Feel free to contact me about any potential projects you may have.  If you just want to say hi, that's cool too.  If you really hate filling out forms, you can also email me directly at <a href="mailto:jedjanderson@gmail.com?Subject=Just%20Saying%20Hello" target="_top">jedjanderson@gmail.com</a></p>
+
+    </section>
+
+    <h2 class="form">Contact</h2>
+
+    <form class="contact_form" action="contact.php" method="POST" name="contact_form">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" name="name"  placeholder="John Doe" required />
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="john_doe@example.com" required />
+            </li>
+            <li>
+                <label for="message">Message:</label>
+                <textarea name="message" cols="40" rows="6" required ></textarea>
+            </li>
+            <li>
+                <button class="submit" type="submit">Submit</button>
+            </li>
+        </ul>
+    </form>
+
+    <footer>
+        <div class="social footerSection">
+            <a href="https://www.facebook.com/jedediah.anderson" target='_blank'><img alt="facebook icon" src="../img/facebook.png"></a>
+            <a href="https://www.youtube.com/user/OkeeDokeeBros" target='_blank'><img alt="youtube icon" src="../img/youtube.png"></a>
+            <a href="https://www.instagram.com/jedjanderson/" target='_blank'><img alt="instagram icon" src="../img/instagram.png"></a>
+        </div>
+        <p class="footerSection">JedEditedIt Productions &copy; 2016</p>
+    </footer>
+
+     <script>
+        $(".flexnav").flexNav();
+    </script>
+</body>
+</html>

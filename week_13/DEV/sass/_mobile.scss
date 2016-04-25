@@ -1,0 +1,360 @@
+	@font-face {
+    font-family: 'latin_modern_mono_light10Rg';
+    src: url('../fonts/lmmonolt10-regular-webfont.eot');
+    src: url('../fonts/lmmonolt10-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmmonolt10-regular-webfont.woff') format('woff'),
+         url('../fonts/lmmonolt10-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lmmonolt10-regular-webfont.svg#latin_modern_mono_light10Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latin_modern_mono10_regular';
+    src: url('../fonts/lmmono10-regular-webfont.eot');
+    src: url('../fonts/lmmono10-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmmono10-regular-webfont.woff') format('woff'),
+         url('../fonts/lmmono10-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lmmono10-regular-webfont.svg#latin_modern_mono10_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latin_modern_mono10_italic';
+    src: url('../fonts/lmmono10-italic-webfont.eot');
+    src: url('../fonts/lmmono10-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmmono10-italic-webfont.woff') format('woff'),
+         url('../fonts/lmmono10-italic-webfont.ttf') format('truetype'),
+         url('../fonts/lmmono10-italic-webfont.svg#latin_modern_mono10_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Site Wide Styles */
+
+$white: #fff;
+$yellow: #face3e;
+$blue: #789fba;
+$lightGrey: #989da4;
+$darkBlue: #3b5f78;
+$grey: #55575a;
+
+@media screen and (min-width: 0px) {
+
+* {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+html {
+ background-color: $white;
+}
+
+html {
+	font-family: "latin_modern_mono_light10Rg", 'Georgia', serif;
+	font-size: 14px;
+}
+
+/*header */
+header {
+	color: white;
+	border-bottom: 2px double $grey;
+
+	h1 {
+		font-family: 'latin_modern_mono10_regular', 'Georgia', serif;
+		background-color: $grey;
+		color: $white;
+		width: 100%;
+		text-align: left;
+		font-size: 1.8em;
+		font-weight: 300;
+		padding: 13px 8px;
+
+	}
+
+	img {
+		width: auto;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+
+	.no-fontface h1, .no-fontface .menu-button, .no-fontface .flexnav li {
+		font-family: 'Helvetica', 'Arial', sans-serif;
+	}
+
+	ul {
+		display: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		padding: 2% 0;
+		background-color: $white;
+	}
+
+	li a {
+		text-decoration: none;
+		color: $grey;
+		font-size: 1.2em;
+	}
+
+	li a:hover {
+		color: $yellow;
+	}
+
+	li:hover {
+		background-color: $lightGrey;
+		color: $yellow;
+	}
+
+}
+
+/* Body */
+
+body {
+		color: $white;
+
+	p {
+		font-size: 1.2em;
+		padding: 2% 3%;
+	}
+
+	p a {
+		color: $yellow;
+		text-decoration: underline;
+		font-family: 'latin_modern_mono10_italic', cursive;
+	}
+
+	h2 {
+		font-size: 2em;
+		text-align: center;
+		width: 100%;
+		padding: 30px 2%;
+		color: $white;
+		background-color: rgba(120, 159, 186, 0.9);
+	}
+}
+
+
+.section {
+    color: $grey;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+}
+
+footer {
+	background-color: $grey;
+	padding: 50px 0;
+	text-align: center;
+	margin: 0;
+
+	img {
+		width: 64px;
+		padding: 30px 5px;
+	}
+}
+
+/* Home Page Specific Styles */
+
+
+body {
+
+	div.mainPageVideo, div.mainPageImage {
+		position: relative;
+	}
+
+	video, img.background {
+  		height: auto;
+ 		vertical-align: middle;
+  		width: 100%;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		display: flex;
+		align-items: center;
+}
+
+	h2.homePage {
+		font-size: 1.1em;
+		text-align: center;
+		vertical-align: middle;
+		background-color: rgba(120, 159, 186, 0.6);
+	}
+
+}
+/* About Page Specific Styles */
+
+div.about {
+	color: $grey;
+	padding: 5% 0;
+}
+
+h2.about, h2.title {
+	width: 60%;
+	margin: 0 20%;
+	padding: 0;
+	background-color: rgba(152, 157, 164, 0.6);
+}
+
+/* Work Page Specific Styles */
+
+
+ul.samples li.all {
+	position: relative;
+    padding-top: 30px;
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+ul.samples {
+
+	h3 {
+		width: 80%;
+		margin: 0 10% 2% 10%;
+		background-color: rgba(152, 157, 164, 0.6);
+		color: $white;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+ul#filter {
+
+	padding-top: 20px;
+	
+	li {
+		width: 100%;
+		display: block;
+		text-align: center;
+		padding: 5px 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: $grey;
+	}
+
+	a:hover {
+		color: $yellow;
+	}
+}
+
+/* Credits Page Specific Styles */
+
+h3.credits {
+	color: $white;
+	background-color: rgba(59, 95, 120, 1);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+div.credits ul {
+	text-align: center;
+	color: $grey;
+	padding: 20px 0;
+
+	a {
+		color: $yellow;
+		text-decoration: none;
+	}
+
+	li {
+		padding: 5px 0;
+		font-size: 1.2em;
+	}
+
+	ul#recording li {
+		padding: 20px 0;
+		font-size: 1em;
+		line-height: 1em;
+	}
+
+	p {
+		line-height: 0.8em;
+		font-style: italic;
+		font-size: 0.8em;
+	}
+
+	h4 {
+		font-weight: 600;
+		font-size: 1em;
+		text-decoration: underline;
+	}
+}
+
+/* Contact Page Specific Styles */
+
+p.contact {
+	color: $grey;
+}
+
+h2.contact {
+	background-color: $white;
+	color: $grey;
+}
+
+section.mainBody {
+	padding: 20px 5px;
+}
+
+
+form {
+	color: $grey;
+	width: 90%;
+	margin: 5%;
+
+	li {
+		list-style-type: none;
+		padding: 10px 0;
+	}
+
+	button.submit {
+		width: 30%;
+		margin: 0 35%;
+		padding: 5px;
+		font-size: 1.1em;
+		background-color: $blue;
+		color: $white;
+		border-radius: 5px;
+	}
+
+	input {
+		height: 2.4em;
+		font-size: 1em;
+	}
+	
+}
+
+}
+
